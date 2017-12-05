@@ -1,0 +1,335 @@
+header{
+  width: 100vw;
+  z-index: 15;
+  top:0px;
+  position: fixed;
+  padding: 10px 0px;
+  background-color: #494468;
+}
+
+button.navbtn{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  background-image: url('../gambar/icon/nav.png');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  padding: 0px;
+  margin-left: 10px;
+  border-radius: none;
+}
+
+#groupname{
+  color: #fff;
+  font-size: 35px;
+  font-weight: normal;
+  font-family: Dayanisma;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+#groupname span{
+  font-size: 28px;
+  color:#fff5b5;
+}
+
+#userlogin{
+  float:right;
+  vertical-align: middle;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+#userlogin img{
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+#userlogin span{
+  vertical-align: middle;
+  margin-right: 20px;
+  font-weight: bold;
+  color: #fff;
+  font-family: calibri;
+}
+
+#wrapper{
+  padding-top: 56px;
+  height: calc(100vh - 56px);
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  background-color: #e6e6e6;
+}
+
+#sidebar{
+  left: -230px;
+  width: 230px;
+  height: calc(100% - 58px);
+  overflow-y: auto;
+  position: fixed;
+  background-color: #dcdcdc;
+}
+
+#rightside{
+  margin-left: 230px;
+  width: calc(100% - 250px);
+  height: calc(100% - 21px);
+  padding: 10px;
+  background-color: #e4e4e4;
+  position: relative;
+  overflow: auto;
+}
+
+.header-content{
+  position: relative;
+  /*width: calc(100% - 24px);*/
+  min-width: 600px;
+  border-radius: 5px;
+  border: 2px solid #a9a9a9;
+  box-shadow: 0px 0px 2px #a7a7a7;
+  padding: 10px;
+  padding-bottom:0px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+#pintasan{
+  display: inline-block;
+  margin:auto;
+  list-style: none;
+  padding: 0px;
+}
+
+.home{
+  background-image: url('../gambar/icon/home.png');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 6px;
+  padding: 5px 15px 5px 30px !important;
+}
+
+#pintasan li{
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #e1e1e1;
+  padding: 5px 20px;
+  box-shadow: 0px 0px 2px #303030;
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+  font-family: calibri;
+  font-size: 13px;
+  color: #000;
+}
+
+#pintasan a{
+  text-decoration: none;
+}
+
+#pintasan span{
+  cursor: default;
+  margin-left: 5px;
+  margin-right: 1px;
+  vertical-align: middle;
+}
+
+.show_sidebar{
+  left: 0px !important;
+}
+
+.expand_rightside{
+  width: calc(100% - 20px) !important;
+  margin-left:0px !important;
+}
+
+nav ul,nav ul ul{
+  list-style: none;
+  margin:auto;
+  cursor: pointer;
+  padding: 0px;
+}
+
+.icon{
+  background-size: 20px;
+  background-position: 11px;
+  background-repeat: no-repeat;
+}
+
+nav ul li.first-child{
+  background-color: #ececec;
+  border-bottom: 2px solid #dcdcdc;
+}
+
+nav ul ul li{
+  background-color: #fff;
+  border-bottom: 2px solid #dcdcdc;
+}
+
+nav ul li a,
+nav ul li ul li{
+  text-decoration: none;
+  font-family: calibri;
+  color: #414141;
+}
+
+nav ul li.icon,
+nav ul li ul li{
+  padding: 15px 20px 15px 37px;
+}
+
+nav ul li ul{
+  overflow: hidden;
+  max-height:0px;
+  transition: max-height 0.2s linear;
+}
+
+nav ul li div{
+  width: 20px;
+  height: 20px;
+  background-image: url('../gambar/icon/arrow.png');
+  background-size: 4px 7px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 8px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.rotatearrow{
+  transform: rotate(-90deg);
+}
+
+.show_nav{
+  background-color: #dcdcdc !important;
+}
+
+.show_second_menu{
+  max-height: 300px;
+  transition: max-height 0.2s linear;
+}
+
+.active-history{
+  background-color: #CAEDF6 !important;
+}
+
+#data-pegawai tr th,
+#data-pegawai tr td{
+  border-bottom: 4px solid #3c4076;
+}
+
+.inp_employee{
+  margin:0px !important;
+  text-transform: capitalize;
+}
+
+.message{
+  font-family: calibri;
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-weight: bold;
+  background-color: #76b3d1;
+  float:left;
+}
+
+.validasiicon{
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 5px);
+}
+
+input[type="text"],input[type="number"],select,textarea{
+  min-width: 250px;
+}
+
+.shsearch{
+  width: 25px;
+  float:right;
+  margin-right: 10px;
+  box-shadow: 0px 0px 5px #494468;
+  padding: 3px 10px;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.expand_search{
+  width: 300px !important;
+}
+
+.expand_search input{
+  border-bottom: 2px dashed #494468 !important;
+}
+
+.shsearch input{
+  background-color: transparent;
+  border:none;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 35px;
+  width: 100%;
+  min-width: 0px !important;
+  margin-bottom:0px;
+}
+
+.shsearch input:focus,
+.shsearch input:hover{
+  box-shadow: none;
+}
+
+#optionlogin{
+  margin-right: 10px;
+  right:0px;
+  width: 150px;
+  margin-top: 5px;
+  z-index: 16;
+  position: absolute;
+  word-wrap: break-word;
+  background-color: #ededed;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px #363636;
+}
+
+#optionlogin ul,
+#optionlogin ul li{
+  list-style: none;
+  text-decoration: none;
+  margin:auto;
+  padding:0px;
+  font-family: calibri;
+}
+
+#optionlogin hr{
+  padding:0px;
+  margin:auto;
+}
+
+#optionlogin li{
+  padding: 10px !important;
+  cursor: pointer;
+}
+
+
+#optionlogin ul li:first-child{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#optionlogin ul li:last-child{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#optionlogin li:hover{
+  background-color: #fff;
+  color: #007896 !important;
+  font-weight: bold;
+}

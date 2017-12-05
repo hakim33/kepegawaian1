@@ -1,0 +1,10 @@
+#form-login{
+  width: 400px;
+  position: relative;
+  margin: auto;
+  margin-top: calc(50vh - 170px);
+}
+
+#load{
+    margin-top: 0px;
+}
